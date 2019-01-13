@@ -1,0 +1,139 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+
+.frutos{
+  background-image: url(../img/dried.jpg);
+  background-color: pink;
+  height: 100vh;
+  min-height: 300px;
+  background-size: cover;
+  opacity: .9;
+}
+
+.organic{
+  background-image: url(../img/organic.jpg);
+  background-color: pink;
+  height: 100vh;
+  min-height: 300px;
+  background-size: cover;
+  opacity: .9;
+}
+
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat;
+  background-size: cover;
+}
+
+
+.img-fluid{
+  position: absolute;
+  z-index: 1;
+  top:0;
+  left: 30%;
+  right: 30%;
+  padding: 0;
+  align-content: center;
+}
+
+.s1{
+  background-image: url(../img/4.jpg);
+  opacity: 1.5;
+}
+.s2{
+  background-image: url(../img/3.jpg);
+  opacity: 2.5;
+}
+.s3{
+  background-image: url(../img/5.jpg);
+  opacity: 3.9;
+}
+
+.navbarfixed{
+  margin-top: 10%;
+  position: absolute;
+  float: none;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  padding: 0 5%
+}
+
+.nav-link, .logo{
+  color: white;
+  font-size: 1.3em;
+  align-content: center;
+  background-color:rgba(0,0,0, .4);
+}
+
+.a:hover{
+  background-color: background-color:rgba(255,255,255, .2);
+}
+
+.nav-link:hover{
+ color: black;
+ font-size: 1.3;
+ align-content: center;
+ background-color:rgba(255,255,255, .2);
+}
+
+.dropdown .dropdown-menu {
+  background-color: rgba(0,0,0, .2);
+  border: 2px white solid;
+}
+
+.open{
+  background: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item{
+  color: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover{
+  color: black;
+}
+
+.carousel-caption{
+  border: 5px white solid;
+  margin-top: 0px;
+}
+
+.purple{
+  background-color: #42353d;
+  color: white;
+  align-content: center;
+}
+
+.purple img{
+  background-color: #42353d;
+  color: white;
+  align-content: center;
+}
+
+h2{
+  text-align: center;
+}
+
+form{
+  margin: 0% 10%;
+}
+
+label{
+  text-align: center;
+  align-content: center;
+}
+
+footer{
+  background-color: #1b171c;
+  color: white;
+  align-content: center;
+  text-align: center;
+  padding: 5% 10%;
+}
