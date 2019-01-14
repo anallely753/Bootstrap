@@ -3,7 +3,6 @@ body{
   margin: 0;
 }
 
-
 .frutos{
   background-image: url(../img/dried.jpg);
   background-color: pink;
@@ -13,7 +12,7 @@ body{
   opacity: .9;
 }
 
-.organic{
+.organico{
   background-image: url(../img/organic.jpg);
   background-color: pink;
   height: 100vh;
@@ -22,7 +21,28 @@ body{
   opacity: .9;
 }
 
+.ciclo{
+  background-image: url(../img/ciclo.jpg);
+  background-color: pink;
+  height: 100vh;
+  min-height: 300px;
+  background-size: cover;
+  opacity: .8;
+}
 
+
+.contacto{
+  background-image: url(../img/contacto.jpg);
+  background-color: pink;
+  height: 100vh;
+  min-height: 300px;
+  background-size: cover;
+  opacity: .8;
+}
+
+
+
+/*CAROUSEL*/
 
 .carousel-item {
   height: 100vh;
@@ -44,7 +64,7 @@ body{
 
 .s1{
   background-image: url(../img/4.jpg);
-  opacity: 1.5;
+  opacity: 1;
 }
 .s2{
   background-image: url(../img/3.jpg);
@@ -54,6 +74,40 @@ body{
   background-image: url(../img/5.jpg);
   opacity: 3.9;
 }
+
+.carousel-caption{
+  margin: 30px 0;
+  padding: 20px 0;
+  top: 30%;
+  background-color: rgba(0,0,0,.5);
+}
+
+.carousel-caption h1{
+  font-size: 5em;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 4px;
+  line-height: 90%;
+}
+
+.carousel-caption p{
+  padding: 5% 20%;
+  font-size: 1.5em;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 4px;
+  line-height: 90%;
+}
+
+.carousel-caption h5{
+  font-size: 2em;
+  margin-top: 15%;
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: 1px;
+  line-height: 90%;
+}
+
+
+
+/*NAVBAR*/
 
 .navbarfixed{
   margin-top: 10%;
@@ -65,11 +119,26 @@ body{
   padding: 0 5%
 }
 
+.logo{
+  background-color: rgba(0,0,0,.5);
+}
+
 .nav-link, .logo{
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 6px;
   color: white;
   font-size: 1.3em;
   align-content: center;
-  background-color:rgba(0,0,0, .4);
+  background-color:rgba(0,0,0, .5);
+}
+
+.nav-link, .logo{
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 6px;
+  color: white;
+  font-size: 1.3em;
+  align-content: center;
+  background-color:rgba(0,0,0, .5);
 }
 
 .a:hover{
@@ -100,9 +169,23 @@ body{
   color: black;
 }
 
-.carousel-caption{
-  border: 5px white solid;
-  margin-top: 0px;
+/*MAIN*/
+
+/*CARDS*/
+
+.cardgroup{
+    align-content: center;
+}
+
+.card-img{
+  opacity: .5;
+}
+
+.card-group .card .card-img-overlay{
+  padding: 30px 50px;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 4px;
+  text-align: center;
 }
 
 .purple{
@@ -117,12 +200,35 @@ body{
   align-content: center;
 }
 
+/*WHITE*/
+.white{
+  padding: 5% 30% 0;
+  font-family: 'Staatliches', cursive;
+  color: #666666;
+}
+
+.white p{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.white .texto{
+  padding-top: 5%;
+  font-size: 1.3em;
+   font-family: 'El Messiri', sans-serif;
+}
+
+.btn{
+  width: 100%;
+}
+
 h2{
   text-align: center;
 }
 
 form{
-  margin: 0% 10%;
+  margin: 0% 25%;
+  font-family: 'El Messiri', sans-serif;
 }
 
 label{
@@ -137,3 +243,4 @@ footer{
   text-align: center;
   padding: 5% 10%;
 }
+
